@@ -5,8 +5,115 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panda Ecommerce Master</title>
+    <!-- Font Awesome Style Sheet  -->
+    <link rel="stylesheet" href="styles/all.min.css">
+    <link rel="stylesheet" href="styles/fontawesome.min.css">
+    <!-- Bootstrap Style Sheet  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
 </head>
 <body>
-    <h1> Panda eCommerce Master file</h1>
+    <header class="container">
+        <!-- start navbar  -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="" width="159" height="41">
+                  </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Product</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!-- start Carosul Slider  -->
+          <div id="carouselExampleControls" class="carousel slide my-4 "  data-bs-ride="carousel">
+            <div class="carousel-inner ">
+              <div class="carousel-item active">
+                  <div class="row bg-primary bg-gradient p-4 align-items-center">
+                      <div class="col-lg-7">
+                          <h1> Mi LED TV </h1>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam omnis sequi id, exercitationem recusandae error?</p>
+                          <button class="btn btn-warning">Buy Now</button>
+                      </div>
+                      <div class="col-lg-5">
+                        <img src="images/banner-images/headphone.png" class="d-block w-100" alt="tv img">
+                      </div>
+                  </div>
+                
+              </div>
+              <div class="carousel-item">
+                <div class="row bg-primary bg-gradient p-4 align-items-center">
+                    <div class="col-lg-7">
+                        <h1> Mi LED TV </h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam omnis sequi id, exercitationem recusandae error?</p>
+                        <button class="btn btn-warning">Buy Now</button>
+                    </div>
+                    <div class="col-lg-5">
+                      <img src="images/banner-images/xbox.png" class="d-block w-100" alt="tv img">
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row bg-primary bg-gradient p-4 align-items-center">
+                    <div class="col-lg-7">
+                        <h1> Mi LED TV </h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam omnis sequi id, exercitationem recusandae error?</p>
+                        <button class="btn btn-warning">Buy Now</button>
+                    </div>
+                    <div class="col-lg-5">
+                      <img src="images/banner-images/tv.png" class="d-block w-100" alt="tv img">
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </header>
+    <main class="">
+            <div class="category container my-4 py-4">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-sm-12 col-md-3 rounded bg-warning">
+                        <img src="images/categories/bag.png" alt="bag-img">
+                    </div>
+                    <div class="col-sm-12 col-md-3 rounded bg-danger ">
+                        <img src="images/categories/shoes.png" alt="bag-img">
+                    </div>
+                    <div class="col-sm-12 col-md-3 rounded bg-success">
+                        <img src="images/categories/watch.png" alt="bag-img">
+                    </div>
+                </div>
+            </div>
+            <!-- product section  -->
+
+    </main>
+    <footer>
+        <h1>footer</h1>
+    </footer>
+
+    <!-- Bootstrap Script  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
